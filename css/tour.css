@@ -325,6 +325,19 @@ form h6{
     margin-bottom: 1rem;
 }
 
+.btn2{
+    width: 165px;
+    height: 53px;
+    border: none;
+    margin: auto;
+    margin-top: -2rem;
+    margin-bottom: 0rem;
+    font-size: 24px;
+    color: #fff;
+    background-color: cadetblue;
+}
+  
+
 /* footer starts  */
 
 .logo{
