@@ -477,7 +477,10 @@ form h6{
     form{
         width: 88%;
     }
-
+    
+    .master{
+        height: 143vh;
+    }
 
 }
 
@@ -538,6 +541,11 @@ form h6{
 
     margin-bottom: 27px;
     }
+
+    .master{
+        height: 143vh;
+    }
+
     @media only screen and (max-width:480px){
 
     nav ul{
@@ -557,6 +565,11 @@ form h6{
     .check span{
         font-size: 13px;
     }
+
+    .master{
+        height: 143vh;
+    }
+    
 
 }
 
