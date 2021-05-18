@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/form2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#back{
+    font-size: 2rem;
+    color: black;
+}
+
+.reverse a{
+      text-decoration: none;
+      /* margin-top: 1rem; */
+}
+
+.reverse{
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.fa{
+    color: black;
+    font-size: 25px;
+}
+
+form{
+    /* border: 2px solid red; */
+    width: 65%;
+    margin: 0 auto;
+    padding: 3% 3%;
+}
+
+input{
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 4px solid gray;
+}
+
+textarea{
+    width: 100%;
+    border: 4px solid gray;
+}
+
+.head h1{
+    color: brown;
+    font-weight: 900;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+form button{
+    margin: 0 auto;
+}
+
+
+.btn1{
+    width: 123px;
+    height: 56px;
+    font-size: 21px;
+    color: rebeccapurple;
+    background: darkgray;
+    margin: 0 auto;
+    margin-left: 18rem;
+}
+
+.btn2{
+    width: 123px;
+    height: 56px;
+    font-size: 21px;
+    color: rebeccapurple;
+    background: darkgray;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+/* media-query  */
+
+@media only screen and (max-width:900px){
+    form{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .btn1{
+        margin-left: 0;
+    }
+
+    .wrapper{
+        text-align: center;
+    }
+
+}
