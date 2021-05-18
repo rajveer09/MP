@@ -206,9 +206,14 @@ html{
 }
 
 .box h1{
-    color: blue;
-    text-align: center;
-}
+        text-align: center;
+        color: brown;
+        font-weight: 900;
+        text-align: center;
+        font-family: 'Akaya Telivigala', cursive;
+        font-size: 2.5rem;
+    }
+
 
 .box .fa{
     font-size: 2.5rem;
