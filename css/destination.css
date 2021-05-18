@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+.banner{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(../images/luka.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.banner h1{
+    padding-top: 9rem;
+    font-weight: 900;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.banner h3{
+    font-weight: 300;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.banner a{
+    font-size: 2rem;
+    color: #fff;
+    margin-left: 1rem;
+}
+
+.banner .fa{
+    font-size: 32px;
+}
+
+#back{
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+
+.ban{
+    width: 32%;
+}
+
+.ban img{
+    width: 100%;
+}
+
+.photo1{
+    /* border: 2px solid red; */
+    height: 250px;
+    background-image: url(../images/amar35.jpg);
+    background-position:  center bottom;
+    background-size: cover;
+}
+
+.photo1:hover{
+    opacity: 0.5;
+}
+
+.photo2{
+    /* border: 2px solid red; */
+    height: 250px;
+    background-image: url(../images/bandhav.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo2:hover{
+    opacity: 0.5;
+}
+
+.photo3{
+    /* border: 2px solid red; */
+    height: 250px;
+    background-image: url(../images/bhedaghar25.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo3:hover{
+    opacity: 0.5;
+}
+
+.photo4{
+    /* border: 2px solid red; */
+    height: 250px;
+    background-image: url(../images/tawa.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+.photo4:hover{
+    opacity: 0.5;
+}
+
+.photo5{
+    /* border: 2px solid red; */
+    height: 250px;
+    background-image: url(../images/hanu.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo5:hover{
+    opacity: 0.5;
+}
+
+.photo6{
+    /* border: 2px solid red; */
+    height: 250px;
+    background-image: url(../images/bhopal.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo6:hover{
+    opacity: 0.5;
+}
+
+.photo7{
+    /* border: 2px solid red; */
+    height: 250px;
+    background-image: url(../images/kanha.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo7:hover{
+    opacity: 0.5;
+}
+
+.photo8{
+    /* border: 2px solid red; */
+    height: 250px;
+    background-image: url(../images/jabalpur22.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo8:hover{
+    opacity: 0.5;
+}
+
+.photo9{
+    /* border: 2px solid red; */
+    height: 250px;
+    background-image: url(../images/khajuraho.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo9:hover{
+    opacity: 0.5;
+}
+
+.photo10{
+    /* border: 2px solid red; */
+    height: 250px;
+    background-image: url(../images/mandasaur.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo10:hover{
+    opacity: 0.5;
+}
+
+.photo11{
+    /* border: 2px solid red; */
+    height: 250px;
+    background-image: url(../images/orccha.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo11:hover{
+    opacity: 0.5;
+}
+
+.photo12{
+    /* border: 2px solid red; */
+    height: 250px;
+    background-image: url(../images/pachmari22.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo12:hover{
+    opacity: 0.5;
+}
+.photo13{
+    /* border: 2px solid red; */
+    height: 250px;
+    background-image: url(../images/sailani.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo13:hover{
+    opacity: 0.5;
+}
+.photo14{
+    /* border: 2px solid red; */
+    height: 250px;
+    background-image: url(../images/panna.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo14:hover{
+    opacity: 0.5;
+}
+.photo15{
+    /* border: 2px solid red; */
+    height: 250px;
+    background-image: url(../images/parsili.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo15:hover{
+    opacity: 0.5;
+}
+
+.wrapper{
+    width: 100%;
+    background-color: #dfdfdf;
+}
+
+.ban h6{
+      font-family: 'Akaya Telivigala', cursive;
+      color: #fff;
+      text-align: center;
+      font-weight: 500;
+      font-size: 2.5rem;
+      margin-top: 16rem;
+}
+
+.ban h2{
+      font-family: 'Akaya Telivigala', cursive;
+      color: #fff;
+      text-align: center;
+      font-weight: 900;
+      font-size: 31px;
+}
+
+
+
+
+/* footer starts  */
+
+.logo{
+    position: relative;
+    left: -16px;
+    text-align: center;
+    margin-top: 0rem;
+}
+
+.logo::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/abhishek-singh-rMMtyyponRM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.logo span{
+    font-size: 1.5rem;
+    padding: 0.7rem;
+    border: 2px solid black;
+    border-radius: 100%;
+    margin-bottom: 2rem;
+}
+
+.copyright p {
+    font-weight: 300;
+    margin-bottom: 4rem;
+}
+
+.help{
+    margin-top: 2rem;
+}
+
+/* media-query  */
+
+ @media only screen and (max-width:1180px){
+
+    .logo{
+        margin-top: 0rem;
+    }
+
+    .ban{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+   .ban h6{
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+    padding-top: 15rem;
+   }
+   
+} 
+
+@media only screen and (max-width:550px){
+    .logo{
+    position: relative;
+    left: -16px; 
+    }
+}

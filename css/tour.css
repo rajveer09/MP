@@ -1,0 +1,558 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     /* font-family: 'Akaya Telivigala', cursive; */
+}
+
+html{
+    font-size: 15px;
+}
+
+/* nav starts  */
+
+.navbar-inverse{
+    /* height: 126px;  */
+    background-color: gray;
+}
+
+#menu ul{
+    padding-right: 20px;
+    margin-top: 2rem;
+     font-family: 'Akaya Telivigala', cursive;
+}
+
+#menu ul li a{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+#menu a:hover{
+    color:aqua;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #fff;
+    width: 31px;
+    height: 6px;
+}
+.navbar-inverse .navbar-toggle  {
+   margin-top: 2rem; 
+   border: 0;
+   background: none;
+}   
+
+.navbar-inverse .navbar-inverse:hover{
+    background: khaki;
+}
+
+
+/* banner starts  */
+
+.banner{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/shikhar-tewari-GzdmjSTe-W8-unsplash.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    margin-top: 20px;
+}
+
+.text{
+    text-align: center;
+    color: #fff;
+    margin-top: -2rem;
+}
+
+.text h3{
+    font-weight: 900;
+    font-size: 3rem;
+    padding-top: 10rem;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.text h1{
+    font-weight: 900;
+    font-size:4rem ;
+    padding-top: 1rem;
+}
+
+.text p{
+    font-weight: 500;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.text .btnone{
+    width: 167px;
+    height: 54px;
+    background-color: #fff;
+    color: black;
+    font-size: 17px;
+    border: none;
+    border-radius: 25%;
+    margin-top: 1rem;
+}
+
+.text .btnone:hover{
+    background-color: aqua;
+}
+
+.text .btntwo{
+    width: 167px;
+    height: 54px;
+    background-color:aqua;
+    color: black;
+    font-size: 17px;
+    border: none;
+    border-radius: 25%;
+}
+
+.text .btntwo:hover{
+    background-color: #fff;
+}
+
+.text a{
+    text-decoration: none;
+}
+
+.change_content::after{
+    content: "";
+    animation: changetext  10s infinite linear;
+    color: aqua;
+}
+
+@keyframes changetext{
+    0%{content:"INDORE"}
+    20%{content:"GWALIOR"}
+    35%{content:"BHOPAL"}
+    50%{content:"Hanuwantiya Island"}
+    60%{content:"UJJAIN"}
+    70%{content:"KHAJURAHO"}
+    80%{content:"Sanchi Stupa"}
+    100%{content:"MAHESHWAR"}
+}
+
+
+/* carouesel 1 starts  */
+
+.explore h1{
+    text-align: center;
+    letter-spacing: 1px;
+    color: brown;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.in{
+    width: 100%;
+}
+
+.container img{
+    width: 50%;
+}
+
+.written{
+    color: black;
+    width: 45%;
+    margin-left: 25%;
+}
+
+.written h3{
+    color: brown;
+}
+
+/* Destination & adv. */
+
+.full{
+   /* border: 2px solid red; */
+   padding: 5% 5%;
+   background-color: rgb(39, 36, 36);
+}
+
+.full .left{
+    width: 45%;
+    height: 400px;
+    /* border: 2px solid blue; */
+    background-image: url(../images/Destinations.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.full .left:hover{
+    opacity: 0.5;
+}
+
+.full .right{
+    width: 45%;
+    height: 400px;
+    /* border: 2px solid green; */
+    background-image: url(../images/Camp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 9%;
+} 
+
+.full .right:hover{
+    opacity: 0.5;
+}
+
+.box h1{
+    color: blue;
+    text-align: center;
+}
+
+.box .fa{
+    font-size: 2.5rem;
+    color: #fff;
+    
+}
+
+#visit{
+    font-size: 23px;
+    color: #fff;
+}
+
+.move{
+    text-align: center;
+}
+
+/* stories starts  */
+
+.item h2{
+    font-weight: 700;
+    font-family: 'Akaya Telivigala', cursive;
+    margin-bottom: 1rem;
+    color: brown;
+}
+
+.item p{
+    font-weight: 300;
+     font-size: 1.1rem;
+     margin-bottom: 1rem;
+     font-family: 'Akaya Telivigala', cursive;
+}
+
+.item a{
+    font-weight: 900;
+    color: crimson;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+.item a:hover{
+  text-decoration: underline;
+}
+
+.story{
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.story h1{
+    font-weight: 900;
+    color: brown;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.storyline{
+    background-color: rgb(153, 140, 140);
+}
+
+/* form starts  */
+
+.master{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(153, 140, 140);
+}
+
+form{
+    width: 50%;
+    margin: 0 auto;
+    border: 2px dotted brown;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    background-color: wheat;
+
+}
+
+form h1{
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Akaya Telivigala', cursive;
+    padding: 2rem 1rem;
+    color: brown;
+}
+
+form h6{
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.alex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.check{
+    text-align: center;
+    padding-right: 10px;
+}
+
+.btn1{
+    width: 123px;
+    height: 40px;
+    background-color: crimson;
+    border: none;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* footer starts  */
+
+.logo{
+    position: relative;
+    text-align: center;
+    margin-top: 0rem;
+    padding-left: 0;
+}
+
+.logo::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/abhishek-singh-rMMtyyponRM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.logo span{
+    font-size: 1.5rem;
+    padding: 0.7rem;
+    border: 2px solid black;
+    border-radius: 100%;
+    margin-bottom: 2rem;
+}
+
+.copyright p {
+    font-weight: 300;
+}
+
+.help{
+    margin-top: 2rem;
+}
+
+
+/* media-query  */
+
+@media only screen and (max-width:1125px){
+    .full .left{
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .full .right{
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        margin-top: 2rem;
+    }
+
+    .box h1{
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .box1 h6{
+        margin-bottom: 3rem;
+    }
+ 
+ 
+}
+
+
+@media only screen and (max-width:760px){
+
+    .alex2{
+        flex: none;
+    }
+    
+   
+    .text h1{
+        font-size: 3rem;
+    }
+
+    nav ul{
+        display: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 35px;
+    }
+
+    nav ul li {
+        /* display:  none; */
+    }
+
+    nav button{
+        display: block;
+        background: 0;
+        border: 0;
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    .text .btnone {
+        width: 122px;
+        height: 44px;
+        font-size: 14px;
+    }
+
+    .text .btntwo {
+        width: 122px;
+        height: 44px;
+        font-size: 14px;
+    }
+
+    .alex2{
+        flex-direction: column;
+    }
+
+    .d{
+        margin-top: 2rem;
+    }
+
+    .written{
+        margin-top: 3%;
+    }
+
+    .box h1{
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .box1 h6{
+        margin-bottom: 3rem;
+    }
+     
+    .master {
+        height: 118vh;
+    }
+
+    form{
+        width: 88%;
+    }
+
+
+}
+
+
+@media only screen and (max-width:550px){
+   .explore h1{
+       font-size: 2rem;
+       margin-top: 5rem;
+   }
+
+   .text h3{
+       font-size: 2.5rem;
+       padding-top: 13rem;
+   }
+
+   .text h1{
+       font-size: 2.5rem;
+   }
+
+   .text{
+    margin-top: -20px;
+   }
+
+   .container img{
+       width: 100%;
+   }
+
+   .written{
+       width: 50%;
+       position: relative;
+       top: 0px;
+       left: 0px;
+   }
+
+   .box h1{
+       text-align: center;
+       padding-top: 2rem;
+   }
+
+   .box1 h6{
+       margin-bottom: 3rem;
+   }
+    .logo{
+      margin-top: 0rem;
+      padding-left: 0;
+    }
+
+    .master{
+        height: 124vh;
+        padding-top: 67px;
+    }
+
+    nav button{
+        margin-top: 1rem;
+    }
+
+    .btn-primary{
+
+    margin-bottom: 27px;
+    }
+    @media only screen and (max-width:480px){
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li{
+        padding-top: 1rem;
+        margin-right: 10rem;
+    }
+
+    form{
+        width: 88%;
+    }
+
+    .check span{
+        font-size: 13px;
+    }
+
+}
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
