@@ -324,4 +324,8 @@ html{
     position: relative;
     left: -16px; 
     }
+
+    .banner {
+        margin-top: -10px;
+    }
 }
