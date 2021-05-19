@@ -22,26 +22,32 @@
             </div>
         </div>
 
-        
         <form action="" onsubmit="return validation();">
+            <label style="color: #fff; font-size: 19px;">Name</label>
             <input type="text" placeholder="Name" id="user">
             <span id="username"></span>
-
+            
+            <label style="color: #fff; font-size: 19px;">E-mail</label><span class="fa fa-star" style="color: red; font-size: 10px; float: right;"></span>
             <input type="text" placeholder="E-mail" id="email">
             <span id="youremail"></span>
-
+             
+            <label style="color: #fff; font-size: 19px;">Mobile Number</label><span class="fa fa-star" style="color: red; font-size: 10px; float: right;"></span>
             <input type="number" placeholder="Mobile Number" id="mobile">
             <span id="mnum"></span>
 
-            <input type="text" placeholder="Permanent Address" id="address">
-            <span id="paddr"></span>
+            <label for="address" style="color: #fff; font-size: 19px;">Permanent address</label> <span class="fa fa-star" style="color: red; font-size: 10px; float: right;"></span>
+            <input type="text" name="address" placeholder="Permanent Address" id="address">
+            <span id="address"></span>
+    
 
+            <label style="color: #fff; font-size: 19px;">Any messege</label>
             <textarea name="Messege" id="messege" cols="30" rows="10" placeholder="Messege"> </textarea>
             <span id="mymessege"></span>
            
             <a href=""><button type="submit" class="btn1">SUBMIT</button></a>
             <a href=""><button type="reset" class="btn2">RESET</button></a>
         </form>
+
 
     </div>
 
