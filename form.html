@@ -22,17 +22,30 @@
             </div>
         </div>
 
-        <form>
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="E-mail">
-            <input type="number" placeholder="Mobile Number">
-            <input type="text" placeholder="Permanent Address">
-            <textarea name="Messege" id="" cols="30" rows="10" placeholder="Messege"></textarea>
+        
+        <form action="" onsubmit="return validation();">
+            <input type="text" placeholder="Name" id="user">
+            <span id="username"></span>
+
+            <input type="text" placeholder="E-mail" id="email">
+            <span id="youremail"></span>
+
+            <input type="number" placeholder="Mobile Number" id="mobile">
+            <span id="mnum"></span>
+
+            <input type="text" placeholder="Permanent Address" id="address">
+            <span id="paddr"></span>
+
+            <textarea name="Messege" id="messege" cols="30" rows="10" placeholder="Messege"> </textarea>
+            <span id="mymessege"></span>
+           
             <a href=""><button type="submit" class="btn1">SUBMIT</button></a>
             <a href=""><button type="reset" class="btn2">RESET</button></a>
         </form>
 
     </div>
+
+    <script src="js/form.js"></script>
 
 </body>
 

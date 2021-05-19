@@ -83,6 +83,17 @@ form button{
     margin-top: 2rem;
 }
 
+span{
+    color: red;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+form span{
+    position: relative;
+    top: -22px;
+}
+
 /* media-query  */
 
 @media only screen and (max-width:900px){
