@@ -246,59 +246,92 @@
             <label for="fader">Days</label>
             <input type="range" min="0" max="100" value="15" id="fader" step="1" oninput="outputUpdate(value)">
             <output for="fader" id="volume">15 Days</output>
-            <input type="submit" class="btn1"><br><br>
-            <div class="alex2">
-                <div class="dropdown">
-                    <button class="btn btn-primary dropdown-toggle" type="button" id="rajveer" data-toggle="dropdown"
-                        aria-expanded="true"> Travel Starting Point<span class="caret"></span> </button>
-                    <ul class="dropdown-menu" aria-labelledby="rajveer">
-                        <li><a href="#">Mumbai</a></li>
-                        <li><a href="#">Delhi</a></li>
-                        <li><a href="#">Bengluru</a></li>
-                        <li><a href="#">Pune</a></li>
-                        <li><a href="#">Kolkata</a></li>
-                        <li><a href="#">Chandigarh</a></li>
-                        <li><a href="#">Jaipur</a></li>
-                        <li><a href="#">Surat</a></li>
-                        <li><a href="#">Ahmedabad</a></li>
-                        <li><a href="#">Vizag</a></li>
-                        <li><a href="#">Kochhi</a></li>
-                        <li><a href="#">Other</a></li>
-                    </ul>
-                </div>
+            
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">SUBMIT</button>
 
-                <div class="dropdown">
-                    <button class="btn btn-primary dropdown-toggle" type="button" id="rajveer" data-toggle="dropdown"
-                        aria-expanded="true"> Select Travel Month <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="rajveer">
-                        <li><a href="#">Jan</a></li>
-                        <li><a href="#">Feb</a></li>
-                        <li><a href="#">March</a></li>
-                        <li><a href="#">April</a></li>
-                        <li><a href="#">May</a></li>
-                        <li><a href="#">June</a></li>
-                        <li><a href="#">July</a></li>
-                        <li><a href="#">August</a></li>
-                        <li><a href="#">September</a></li>
-                        <li><a href="#">October</a></li>
-                        <li><a href="#">November</a></li>
-                        <li><a href="#">December</a></li>
-                    </ul>
-                </div>
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
 
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h2 class="modal-title" style="color: brown; font-weight: 500;">MP Welcomes You</h2>
+                        </div>
+
+                        <div class="modal-body">
+                            <p style="font-weight: 300; font-size: 16px;">Yeah! Happy stay for these days. Please, carry on to fill the form further.</p>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
 
-            <h6 style="margin-bottom: 1rem; text-align: center;">Select Travel Theme</h6>
+            
+            <div class="checkbox">
+                <label style="margin-top: 1rem; margin-bottom: 1.5rem;">
+                    <input type="checkbox"><span style="font-size: 18px; font-weight: 700;"> Check if you are Indian!</span>
+                </label>
+
+            </div>
+            
+
+            
+    <label for="cars"><span style="font-size: 15px; font-weight: 700; margin-bottom: 1.5rem;">Choose Starting City:</span></label>
+    <select name="cars" id="cars">
+        <option value="volvo">Select</option>
+      <option value="volvo">Mumbai</option>
+      <option value="saab">Delhi</option>
+      <option value="opel">Kolkata</option>
+      <option value="audi">Bengluru</option>
+      <option value="cha">Jaipur</option>
+      <option value="chb">Kocchi</option>
+      <option value="chc">Pune</option>
+      <option value="chd">Ahmedabad</option>
+      <option value="che">Chennai</option>
+      <option value="chef">Other</option>
+    </select>
+    <br><br>
+ 
+
+            
+            <label class="radio-inline" style="margin-bottom: 1.5rem;">
+                <input type="radio" name="myradio" id="demo1" value="This1">
+                <span style="font-size: 15px; font-weight: 700;">Family Trip!</span>
+            </label>
+       
+
+       
+
+            <label class="radio-inline" style="margin-bottom: 1.5rem;">
+                <input type="radio" name="myradio" id="demo2" value="This2">
+                <span style="font-size: 15px; font-weight: 700;">Friends Trip!</span>
+            </label>
+     
+
+            <label class="radio-inline" style="margin-bottom: 1.5rem;">
+                <input type="radio" name="myradio" id="demo2" value="This2" disabled>
+                <span style="font-size: 15px; font-weight: 700;">Office/College Trip!</span>
+            </label>
+
+            
+
+
+            <h6 style="margin-bottom: 1rem; text-align: center; font-size: 15px;">Select Travel Theme</h6>
 
             <div class="check">
 
-                <input type="checkbox" name="adv" value="adv"> Adventure
-                <input type="checkbox" name="heritage" value="heritage"> Heritage
-                <input type="checkbox" name="nature" value="nature"> Nature
-                <input type="checkbox" name="spiritual" value="spiritual"> Spiritual
-                <input type="checkbox" name="wild" value="wild"> Wild
+                <input type="checkbox" name="adv" value="adv"> <span style="font-size: 16px; padding: 0 10px;">Adventure</span>
+                <input type="checkbox" name="heritage" value="heritage"><span style="font-size: 16px; padding: 0 10px;">Heritage</span>
+                <input type="checkbox" name="nature" value="nature"><span style="font-size: 16px; padding: 0 10px;">Nature</span>
+                <input type="checkbox" name="spiritual" value="spiritual"><span style="font-size: 16px; padding: 0 10px;">Spiritual</span>
+                <input type="checkbox" name="wild" value="wild"><span style="font-size: 16px; padding: 0 10px;">Wild</span>
             </div>
+
 
         </form>
         <a href="form.html"> <button class="btn-default btn2">Click me!</button></a>

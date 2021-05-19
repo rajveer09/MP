@@ -32,6 +32,6 @@ function validation(){
     }
 
     else{
-        document.write("<h1>Congratulation! Your Registration is Successfull.</h1>")
+        document.write("<h1>Congratulation! Your Registration is Successful.We will call back soon.</h1>")
     }
 }
